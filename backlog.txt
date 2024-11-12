@@ -1,0 +1,9 @@
+React Review: 
+Setup
+1. Set up a new React App - done
+2. Remove boiler plate - done
+3. Run app - done
+
+Mild
+1. Setup useStates(Todo's and inputs)
+2.create add input function (addTodo)
