@@ -42,11 +42,13 @@ function App() {
         </form>
         
         {/* Display the list of to-dos */}
-        <ul>
+        <div class="todo-container">
+        <ul classname="todo-list">
           {todos.map((todo, index) => (
-            <li key={index}>{todo}</li>
+            <li classname="todo-item" key={index}>{todo}</li>
           ))}
         </ul>
+        </div>
       </div>
     </>
   );

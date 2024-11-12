@@ -66,3 +66,105 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* styling by Isha */ 
+/* Heading styling */
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="button"] {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+  background-color: #357ab7;
+}
+
+/* Style for the container holding the list */
+.todo-container {
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Style for the list itself */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual list items */
+.todo-item {
+  background-color: #f4f4f9;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+/* List item hover effect */
+.todo-item:hover {
+  background-color: #e0e7ff;
+}
+
+/* Add some styling for text inside each item */
+.todo-item p {
+  margin: 0;
+  color: #333;
+}
+
+/* Optional: style for a delete button inside each item */
+.todo-item button {
+  background-color: #ff6666;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the delete button */
+.todo-item button:hover {
+  background-color: #e63946;
+}
+
