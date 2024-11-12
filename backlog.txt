@@ -8,6 +8,7 @@ Mild
 1. Setup useStates(Todo's and inputs) - done
 2. Create add input function (addTodo) - done
 3. Add input button (to trigger addTodo) - done
-4. Create TodoItem Component
+4. Create TodoItem Component - In progress
 5. Add list to map list of todos (to "map" over the list of todos)
 6. Bonus - abstarct TodoItem to another file
+
