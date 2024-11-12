@@ -168,3 +168,9 @@ input[type="button"]:hover {
   background-color: #e63946;
 }
 
+/* Validation Error Msg Style*/
+.error {
+  color: #ff6666;
+  font-size: 0.875rem;
+  margin-top: 8px;
+}
